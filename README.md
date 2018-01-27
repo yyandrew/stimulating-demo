@@ -1,24 +1,9 @@
-# README
+# Stimulus Framework Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Combine Rails app with Stimulus framework
 
-* Ruby version
 
-* System dependencies
+Stimulus is a JavaScript framework with modest ambitions.Stimulus works by continuously monitoring the page, waiting for the magic data-controller attribute to appear.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If `class` is a bridge connecting `HTML` to `CSS` then `data-controller` is a bridge from HTML to JavaScript.
