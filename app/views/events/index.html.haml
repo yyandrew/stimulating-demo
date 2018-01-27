@@ -1,0 +1,5 @@
+= link_to 'New Event', new_event_path
+
+%div{data: {controller: 'hello', 'hello-name' => 'Andrew'}}
+  = text_field_tag 'name', '', data: {target: 'hello.name', action: "paste->hello#paste"}
+  = button_tag 'Log', type: 'button', data: {action: "click->hello#log"}
